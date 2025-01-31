@@ -34,10 +34,10 @@ export default function Home() {
         <div className="container px-4 mx-auto">
           <div className="max-w-2xl mx-auto">
             <div className="text-left mb-12">
-              <h1 className="text-2xl md:text-3xl font-bold mb-6">
+              <h1 className="text-xl md:text-2xl font-bold mb-2">
                 Hi, I'm <span className="text-primary">Tony Malagon</span>
               </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground">
+              <p className="text-lg md:text-xl text-muted-foreground">
                 Data Scientist & Technical Writer
               </p>
             </div>
