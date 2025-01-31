@@ -49,14 +49,6 @@ export default function Home() {
                 
                 <br/><b>🤯 Wild, right?</b>
               </p>
-              <div className="flex justify-center gap-4 mb-12">
-                <Button variant="default" size="lg">
-                  View Projects <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-                <Button variant="outline" size="lg">
-                  Read Blog
-                </Button>
-              </div>
               <div className="flex justify-center gap-6">
                 <Link href="https://github.com/geramalagon" className="text-muted-foreground hover:text-primary transition-colors">
                   <Github className="h-6 w-6" />
