@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/datasolve-website' : '',
+  distDir: 'build', // Change output directory to 'build'
   images: { unoptimized: true },
   eslint: {
     ignoreDuringBuilds: true,
