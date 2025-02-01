@@ -30,9 +30,9 @@ export function Navigation() {
           <Image
             src="/logo.png"
             alt="DataSolve Logo"
-            width={180}
-            height={40}
-            className="h-8 w-auto"
+            width={135}
+            height={30}
+            className="w-[135px] h-auto sm:w-[180px]"
             priority
           />
         </Link>
