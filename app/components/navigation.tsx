@@ -11,14 +11,15 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
   return (
     <Link 
       href={href} 
-      className={`px-3 py-1 rounded-md transition-all duration-300 relative 
+      className={`px-3 py-1 rounded-md transition-all duration-300 relative overflow-hidden
         ${isActive 
-          ? 'bg-secondary text-foreground' 
-          : 'hover:text-primary hover:bg-secondary/50'
+          ? 'bg-secondary text-foreground scale-105' 
+          : 'hover:text-primary hover:scale-110 hover:-translate-y-[2px]'
         }
-        before:absolute before:inset-0 before:rounded-md before:bg-secondary/0 
-        before:transition-all before:duration-300 hover:before:bg-secondary/10 
-        before:transform before:scale-x-0 hover:before:scale-x-100
+        after:absolute after:inset-0 after:bg-secondary/80
+        after:transform after:scale-x-0 after:origin-left
+        after:transition-transform after:duration-300
+        hover:after:scale-x-100 after:-z-10
       `}
     >
       {children}
