@@ -11,11 +11,15 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
   return (
     <Link 
       href={href} 
-      className={`px-3 py-1 rounded-md transition-colors lowercase ${
-        isActive 
+      className={`px-3 py-1 rounded-md transition-all duration-300 relative 
+        ${isActive 
           ? 'bg-secondary text-foreground' 
-          : 'hover:text-primary'
-      }`}
+          : 'hover:text-primary hover:bg-secondary/50'
+        }
+        before:absolute before:inset-0 before:rounded-md before:bg-secondary/0 
+        before:transition-all before:duration-300 hover:before:bg-secondary/10 
+        before:transform before:scale-x-0 hover:before:scale-x-100
+      `}
     >
       {children}
     </Link>
