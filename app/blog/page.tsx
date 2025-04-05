@@ -6,45 +6,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CalendarDays, Clock, ChevronRight } from "lucide-react";
 
-const posts = [
-  {
-    title: "Building a Modern Web Application with Next.js 13",
-    date: "2024-03-20",
-    readTime: "5 min read",
-    slug: "building-modern-web-app-nextjs-13",
-    category: "Development",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop"
-  },
-  {
-    title: "Understanding TypeScript Generics",
-    date: "2024-03-15",
-    readTime: "8 min read",
-    slug: "understanding-typescript-generics",
-    category: "TypeScript",
-    image: "https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=2070&auto=format&fit=crop"
-  },
-  {
-    title: "State Management in React: A 2024 Guide",
-    date: "2024-03-10",
-    readTime: "10 min read",
-    slug: "state-management-react-2024",
-    category: "React"
-  },
-  {
-    title: "Advanced Git Workflows for Teams",
-    date: "2024-03-05",
-    readTime: "12 min read",
-    slug: "advanced-git-workflows",
-    category: "DevOps"
-  },
-  {
-    title: "Building Accessible Web Applications",
-    date: "2024-03-01",
-    readTime: "7 min read",
-    slug: "building-accessible-web-applications",
-    category: "Accessibility"
-  }
-];
+interface Post {
+  title: string;
+  date: string;
+  readTime: string;
+  slug: string;
+  category: string;
+  image?: string;
+}
+
+const posts: Post[] = [];
 
 const categories = ["All", "Development", "TypeScript", "React", "DevOps", "Accessibility"];
 
@@ -56,7 +27,7 @@ export default function BlogPage() {
     : posts.filter(post => post.category === selectedCategory);
 
   return (
-    <main className="min-h-screen bg-background">
+    <main>
       <div className="container px-4 mx-auto py-8">
         {/* Categories */}
         <div className="flex flex-wrap gap-2 mb-8">

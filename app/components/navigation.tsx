@@ -44,7 +44,7 @@ export function Navigation() {
         <div className="space-x-2">
           <NavLink href="/">home</NavLink>
           <NavLink href="/projects">projects</NavLink>
-          <NavLink href="/blog">blog</NavLink>
+          {/* <NavLink href="/blog">blog</NavLink> */}
         </div>
       </div>
     </nav>

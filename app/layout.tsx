@@ -53,12 +53,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={hack.variable}>
-      <body suppressHydrationWarning className="font-hack">
+      <body suppressHydrationWarning className="font-hack flex flex-col min-h-screen bg-gradient-to-b from-background to-secondary">
         <header className="border-b">
           <Navigation />
         </header>
-        {children}
-        <footer className="bg-secondary py-12">
+        <main className="flex-grow">
+          {children}
+        </main>
+        <footer className="py-12">
           <div className="container mx-auto px-4">
             <div className="text-center">
               <p className="text-muted-foreground">
