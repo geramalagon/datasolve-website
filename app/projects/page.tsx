@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-export interface Project {
+interface Project {
   title: string;
   description: string;
   image: string;
@@ -10,7 +10,7 @@ export interface Project {
   tech: string[];
 }
 
-export const projects: Project[] = [
+const projects: Project[] = [
   {
     title: "Sailor",
     description: "AI becomes Property Management",
