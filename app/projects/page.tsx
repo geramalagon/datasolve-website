@@ -13,9 +13,9 @@ interface Project {
 const projects: Project[] = [
   {
     title: "AI Recepetionist",
-    description: "It will answer your phone calls.",
+    description: "It answers phone calls for property managers.",
     image: "/project-images/ai-receptionist-thumbnail.png",
-    link: "https://www.apmhelp.com/ai-receptionist",
+    link: "#",
     tech: []
   },
   {
