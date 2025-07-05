@@ -15,7 +15,7 @@ const projects: Project[] = [
     title: "AI Recepetionist",
     description: "It answers phone calls for property managers.",
     image: "/project-images/ai-receptionist-thumbnail.png",
-    link: "#",
+    link: "https://www.apmhelp.com/ai-receptionist",
     tech: []
   },
   {
