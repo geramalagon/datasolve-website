@@ -15,7 +15,7 @@ export default function Home() {
           <div className="max-w-2xl mx-auto">
             <div className="text-left mb-12">
               <h1 className="text-xl md:text-2xl font-bold mb-2">
-                Hi, I'm <span className="text-primary">Tony Malagon</span>
+                Hi, I'm <span className="text-primary">Gerardo Malagon</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
                 Builder & Data Scientist
@@ -23,9 +23,9 @@ export default function Home() {
             </div>
             <div className="text-center">
               <p className="text-muted-foreground mb-8">
-                I deleted 147 spreadsheets last Tuesday - and it felt better than a month's worth of coffee breaks.<br/>
+                I used to dream up futuristic AI products– then I decided actually building them was more fun.<br/>
                 
-                <br/>These days, I get my dopamine hits from watching AI do the work of three people while I actually take lunch breaks.<br/>
+                <br/>These days, I'm hands-on prototyping with LLMs and reading newsletters at 7 a.m with a cup of coffee.<br/>
                 
                 <br/><b>🤯 Wild, right?</b>
               </p>
