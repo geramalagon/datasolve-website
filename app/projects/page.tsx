@@ -15,7 +15,8 @@ const projects: Project[] = [
     title: "AI Recepetionist",
     description: "It will answer your phone calls.",
     image: "/project-images/ai-receptionist-thumbnail.png",
-    link: "https://www.apmhelp.com/ai-receptionist"
+    link: "https://www.apmhelp.com/ai-receptionist",
+    tech: []
   },
   {
     title: "Sailor",
@@ -27,7 +28,7 @@ const projects: Project[] = [
   {
     title: "Delinquencies AI",
     description: "AI collects. You oversee.",
-    image: "/project-images/collections-thumbnail.png", // Placeholder image path
+    image: "/project-images/collections-thumbnail.png",
     link: "https://collections-agent-dashboard.vercel.app/",
     tech: []
   }
