@@ -18,7 +18,7 @@ export default function Home() {
                 Hi, I'm <span className="text-primary">Tony Malagon</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
-                Data Scientist & Builder
+                Builder & Data Scientist
               </p>
             </div>
             <div className="text-center">
