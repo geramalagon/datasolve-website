@@ -12,6 +12,12 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "AI Recepetionist",
+    description: "It answers phone calls for property managers.",
+    image: "/project-images/ai-receptionist-thumbnail.png",
+    link: "https://www.apmhelp.com/ai-receptionist",
+  },
+  {
     title: "Sailor",
     description: "AI becomes Property Management",
     image: "/project-images/sailor-thumbnail.png", // Placeholder image path
