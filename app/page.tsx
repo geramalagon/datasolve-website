@@ -23,11 +23,8 @@ export default function Home() {
             </div>
             <div className="text-center">
               <p className="text-muted-foreground mb-8">
-                I used to dream up futuristic AI products– then I decided actually building them was more fun.<br/>
-                
-                <br/>These days, I'm hands-on prototyping with LLMs and reading newsletters at 7 a.m with a cup of coffee.<br/>
-                
-                <br/><b>🤯 Wild, right?</b>
+                I used to dream up futuristic products– then I decided actually building them was more fun.<br/>
+        
               </p>
               <div className="flex justify-center gap-6">
                 <Link href="https://github.com/geramalagon" className="text-muted-foreground hover:text-primary transition-colors">
